@@ -15,6 +15,10 @@ header {
     margin-right: 20%;
 }
 
+.clearfix {
+    overflow: both;
+}
+
 div:first-child {
     margin-top: 50px;
     text-align: center;
@@ -24,19 +28,9 @@ div:first-child {
     width: 350px;
     height: 120px;
     background-color: black;
+    margin-right: 15px;
     margin-top: 50px;
-}
-
-.left {
     float: left;
-}
-
-.center {
-    display: inline-block;
-}
-
-.right {
-    float: right;
 }
 
 img {
