@@ -1,0 +1,22 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    text-align: center;
+    margin-top: 40px;
+    color: rgb(229, 49, 112);
+}
+
+.container {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+div:first-child {
+    margin-top: 50px;
+    text-align: center;
+}
+
