@@ -31,8 +31,6 @@ h1 {
     background-color: black;
     margin: 10px;
     float: left;
-    -webkit-box-shadow: 9.5px 12px 6px 3px #dddddd;
-    -moz-box-shadow: 9.5px 12px 6px 3px #dddddd;
     box-shadow: 9.5px 12px 6px 3px #dddddd;
 }
 
