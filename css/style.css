@@ -4,38 +4,39 @@
     font-family: 'Poppins', sans-serif;
 }
 
-header {
-    text-align: center;
-    margin-top: 40px;
-    color: rgb(229, 49, 112);
-}
-
 .container {
-    margin-left: 20%;
-    margin-right: 20%;
-}
-
-.clearfix {
-    overflow: both;
-}
-
-div:first-child {
-    margin-top: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
     text-align: center;
+}
+
+h1 {
+    color: rgb(229, 49, 112);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.clearfix::after {
+    clear: both;
+    display: block;
+    content: '';
+}
+
+#bodycontent {
+    margin-top: 2%;
 }
 
 .card {
-    width: 30%;
-    height: 120px;
+    width: calc(100% / 3 - 20px);
     background-color: black;
-    margin-right: 15px;
-    margin-top: 50px;
+    margin: 10px;
     float: left;
 }
 
 img {
     width: 120px;
     float: left;
+    display: block;
 }
 
 h2 {
